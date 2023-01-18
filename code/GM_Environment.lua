@@ -28,7 +28,7 @@
 ]]--
 
 RGGM_ENVIRONMENT = {
-  ADDON_IDENTIFIER = "com.ragedunicorn.wow.bcc.gearmenu-addon",
+  ADDON_IDENTIFIER = "com.ragedunicorn.wow.wotlkc.gearmenu-addon",
   LOG_LEVEL = 4,
   LOG_EVENT = true,
   DEBUG = true

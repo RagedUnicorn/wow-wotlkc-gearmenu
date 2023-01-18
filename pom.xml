@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ragedunicorn.wow.bcc</groupId>
+  <groupId>com.ragedunicorn.wow.wotlkc</groupId>
   <artifactId>gearmenu-addon</artifactId>
   <version>3.2.3</version>
   <packaging>pom</packaging>
@@ -18,8 +18,8 @@
     <addon.wago.projectId>kaNeybN2</addon.wago.projectId>
     <addon.name.short>GM</addon.name.short>
     <addon.tag.version>v${project.version}</addon.tag.version>
-    <addon.interface>20504</addon.interface>
-    <addon.supported.patch>2.5.4</addon.supported.patch>
+    <addon.interface>30401</addon.interface>
+    <addon.supported.patch>3.4.1</addon.supported.patch>
     <addon.identifier>${project.groupId}.${project.artifactId}</addon.identifier>
     <addon.project.categories>Action Bars Combat PvP</addon.project.categories>
   </properties>
@@ -84,7 +84,7 @@
                 </goals>
                 <configuration>
                   <owner>ragedunicorn</owner>
-                  <repository>wow-bcc-gearmenu</repository>
+                  <repository>wow-wotlkc-gearmenu</repository>
                   <!--suppress UnresolvedMavenProperty -->
                   <authToken>${github.auth-token}</authToken>
                   <tagName>${addon.tag.version}</tagName>
@@ -127,7 +127,7 @@
                 <configuration>
                   <game>wow</game>
                   <projectId>${addon.curseforge.projectId}</projectId>
-                  <displayName>${addon.displayName}-${addon.tag.version}-bcc.zip</displayName>
+                  <displayName>${addon.displayName}-${addon.tag.version}-wotlkc.zip</displayName>
                   <changelogFile>${basedir}/build-resources/release-notes.md</changelogFile>
                   <changelogType>markdown</changelogType>
                   <gameVersions>
@@ -170,7 +170,7 @@
                 </goals>
                 <configuration>
                   <projectId>${addon.wago.projectId}</projectId>
-                  <label>${addon.displayName}-${addon.tag.version}-bcc.zip</label>
+                  <label>${addon.displayName}-${addon.tag.version}-wotlkc.zip</label>
                   <changelogFile>${basedir}/build-resources/release-notes.md</changelogFile>
                   <supportedBccPatch>${addon.supported.patch}</supportedBccPatch>
                   <stability>stable</stability>
