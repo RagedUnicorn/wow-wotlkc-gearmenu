@@ -1,3 +1,1 @@
-# Fixes
-
-* Fix unequip slot texture and position
+Initial wotlkc support release
