@@ -160,7 +160,7 @@
           <plugin>
             <groupId>com.ragedunicorn.tools.maven</groupId>
             <artifactId>wago-release-maven-plugin</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <executions>
               <execution>
                 <id>default-cli</id>
@@ -172,7 +172,7 @@
                   <projectId>${addon.wago.projectId}</projectId>
                   <label>${addon.displayName}-${addon.tag.version}-wotlkc.zip</label>
                   <changelogFile>${basedir}/build-resources/release-notes.md</changelogFile>
-                  <supportedBccPatch>${addon.supported.patch}</supportedBccPatch>
+                  <supportedWotlkcPatch>${addon.supported.patch}</supportedWotlkcPatch>
                   <stability>stable</stability>
                   <file>${basedir}/target/${addon.name}.zip</file>
                   <!--suppress UnresolvedMavenProperty -->
