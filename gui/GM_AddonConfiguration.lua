@@ -28,6 +28,10 @@
 local mod = rggm
 local me = {}
 
+mod.addonConfiguration = me
+
+me.tag = "AddonConfiguration"
+
 --[[
   Holds the id reference to the main category of the addon. Can be used with Settings.OpenToCategory({number})
   {number}
@@ -38,10 +42,6 @@ local mainCategoryId
   {number}
 ]]--
 local gearBarSubCategoryId
-
-mod.addonConfiguration = me
-
-me.tag = "AddonConfiguration"
 
 --[[
   Retrieve a reference to the main category of the addon
