@@ -124,7 +124,8 @@ end
   @param {string} panelText
   @param {function} onShowCallback
 
-  @return {table}
+  @return {table}, {table}
+    category, menu
 ]]--
 function me.BuildCategory(frameName, parent, panelText, onShowCallback)
   local category
