@@ -194,7 +194,7 @@ function me.SwitchItems(itemId, slotId)
 
     --[[
       Special case for when an item can't be found in the bag. This can happen when the
-      user drag and drops an item that he has equiped onto another slot. This essentialy
+      user drag and drops an item that he has equipped onto another slot. This essentially
       needs to cause a switch of those items. This is only possible for INVTYPE_TRINKET and
       INVTYPE_FINGER
     ]]--
@@ -410,8 +410,8 @@ end
   @param {number} slotId
 
   @param {boolean}
-    true - if an item is equiped in the specific slot
-    false - if no item is equiped in the specific slot
+    true - if an item is equipped in the specific slot
+    false - if no item is equipped in the specific slot
 ]]--
 function me.HasItemEquipedInSlot(slotId)
   local equipedItemId = GetInventoryItemID(RGGM_CONSTANTS.UNIT_ID_PLAYER, slotId)
