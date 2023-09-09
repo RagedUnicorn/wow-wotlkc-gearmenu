@@ -1,3 +1,3 @@
 # Fix
 
-* Fix UIErrorsFrame:AddMessage function signature
+* Fig rggm.opt command
