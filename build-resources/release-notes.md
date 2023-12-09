@@ -1,3 +1,3 @@
-# Update
+# Fix
 
-* Update Interface Version 30403(3.4.3)
+* Fix display of combatqueue icon
