@@ -157,7 +157,7 @@ If you prefer having certain items in your actionslots GearMenu can still be of 
 /run GM_RemoveFromCombatQueue(slotId)
 
 # Example - Clear headSlot queue
-/run GM_AddToCombatQueue(1)
+/run GM_RemoveFromCombatQueue(1)
 ```
 
 ##### Finding itemId
